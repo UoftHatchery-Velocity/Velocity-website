@@ -1,0 +1,39 @@
+body {
+    padding-top: 80px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.header-top {
+    background-image: url("images/bike-home.png");
+}
+
+#velocity {
+    font-size: 35;
+}
+
+#header1 {
+    font-size: 50;
+    color: white;
+}
+
+#header1-description {
+    font-size: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#apple-download {
+    width: 190;
+    height: 66;
+    margin-bottom: 15px;
+}
+
+#android-download {
+    width: 190;
+    height: 66;
+    margin-bottom: 15px;
+}
