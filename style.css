@@ -1,22 +1,54 @@
 body {
-    padding-top: 80px;
+    padding-top: 60px;
+}
+#myTopnav {
+	background-color: transparent;
+	/* opacity: 0.5; */
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
 .jumbotron {
     text-align: center;
+	margin-top: -100px;
+	margin-bottom: 30px;
+	color:inherit;
+	background-color: #eee;
+	padding-top: 48px;
+	padding-bottom: 48px;
 }
 
 .header-top {
     background-image: url("images/bike-home.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+	height: 650px;
+}
+
+.interface {
+	margin-top: -30px; 
+	float: right;
+}
+
+.interface-text{
+	float:left;
+}
+
+.appearance-text{
+	float:right;
 }
 
 #velocity {
     font-size: 35;
+	color: white;
 }
 
 #header1 {
-    font-size: 50;
+    font-size: 60;
     color: white;
+	margin-top: 140px;
+	font-weight: 600;
 }
 
 #header1-description {
