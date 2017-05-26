@@ -69,3 +69,53 @@ body {
     height: 66;
     margin-bottom: 15px;
 }
+
+#velocity-logo {
+    width: 300;
+    height: 150;
+    display: block;
+    margin: 0 auto;
+}
+.footsocial {
+    background: #c0da32;
+    color: #fefefe;
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.image {
+    margin: 0;
+    padding: 0;
+    font-size: 200px;
+    line-height: 0.5em;
+    margin-bottom: 50px;
+}
+.terms {
+    text-align: center;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.logo {
+    margin-bottom: 150px;
+    margin-top: 50px;
+    transform: scale(2,2);
+    transform-origin: -5 0;
+}
