@@ -85,8 +85,21 @@ body {
 	width: 50%;
 }
 
+.column.with-example{
+	position: absolute;
+}
+.column-right.with-example {
+	left: 54%;
+}
+
 .column-left.with-copy{
 	margin-right: 50%;
+}
+
+.column.with-copy .copy {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center !important;
 }
 
 .column.with-copy {
