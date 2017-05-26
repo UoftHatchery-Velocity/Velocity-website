@@ -29,10 +29,12 @@ body {
 .interface {
 	margin-top: -30px; 
 	float: right;
+	width: 50%;
 }
 
 .interface-text{
 	float:left;
+
 }
 
 .appearance-text{
@@ -71,13 +73,13 @@ body {
 }
 
 #velocity-logo {
-    width: 300;
+    width: 170;
     height: 150;
     display: block;
     margin: 0 auto;
 }
 .footsocial {
-    background: #c0da32;
+    background: rgb(72,240,111);
     color: #fefefe;
     padding: 40px 0;
     display: -webkit-box;
@@ -98,13 +100,16 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
 .image {
     margin: 0;
     padding: 0;
     font-size: 200px;
     line-height: 0.5em;
     margin-bottom: 50px;
+	opacity: 0.6
 }
+
 .terms {
     text-align: center;
     display: block;
@@ -112,10 +117,11 @@ body {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+	opacity: .7;
 }
 .logo {
     margin-bottom: 150px;
     margin-top: 50px;
-    transform: scale(2,2);
     transform-origin: -5 0;
+	opacity: 0.8;
 }
