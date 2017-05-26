@@ -28,13 +28,15 @@ body {
 
 .interface {
 	margin-top: -30px; 
-	float: right;
-	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+	width: 106%;
+	height: 100%;
 }
 
 .interface-text{
 	float:left;
-
 }
 
 .appearance-text{
@@ -78,6 +80,24 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.column.with-copy, .colum.with-example {
+	width: 50%;
+}
+
+.column-left.with-copy{
+	margin-right: 50%;
+}
+
+.column.with-copy {
+	float: left;
+	display: table;
+}
+.column {
+	height: 100%;
+	position: relative;
+}
+
 .footsocial {
     background: rgb(72,240,111);
     color: #fefefe;
