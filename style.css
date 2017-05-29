@@ -14,7 +14,8 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #fcf8e3;
+	font-weight: 600;
+	color:#fcf8e3;
 }
 
 .jumbotron {
@@ -136,9 +137,18 @@ body {
 	}	
 }
 
+@media screen and (max-width:900px){
+	.block1 {
+		text-align: center; 
+	}
+	.block3 {
+		text-align: center;
+	}
+}
+
 .block1 {
 	max-width: 100%;
-    width: 1170px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -214,10 +224,4 @@ body {
     margin-top: 50px;
     transform-origin: -5 0;
 	opacity: 0.8;
-}
-
-#myTopnav.activeScrool {
-	background: white none-repeat scroll 0 0;
-	box-shadow: 0 1px 6px rgba(0,0,0,0.4);
-	transition: all 0.2s ease-in 0s;
 }
