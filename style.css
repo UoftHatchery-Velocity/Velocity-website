@@ -9,16 +9,17 @@ body {
 }
 
 .jumbotron {
-    text-align: center;
-	margin-top: -100px;
-	margin-bottom: 30px;
-	color:inherit;
-	background-color: #eee;
-	padding-top: 48px;
-	padding-bottom: 48px;
-}
+	background-color: transparent;
+	color: white;
+} 
 
 .header-top {
+	text-align: center;
+	margin-top: -100px;
+	margin-bottom: 0px;
+	color:inherit;
+	padding-top: 48px;
+	padding-bottom: 48px;
     background-image: url("images/bike-home.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -27,20 +28,12 @@ body {
 }
 
 .interface {
-	margin-top: -30px; 
+	margin-top: auto; 
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1040px;
 	width: 106%;
 	height: 100%;
-}
-
-.interface-text{
-	float:left;
-}
-
-.appearance-text{
-	float:right;
 }
 
 #velocity {
@@ -81,34 +74,63 @@ body {
     margin: 0 auto;
 }
 
-.column.with-copy, .colum.with-example {
-	width: 50%;
+.text1 {	
+	display: flex;
+	/* box-pack: center; */
+	justify-content: center;
+	/* box-orient: vertical; */
+	flex-direction: column;
+	/* align-items: center; */
+	/* margin: 0 auto; */
 }
 
-.column.with-example{
-	position: absolute;
-}
-.column-right.with-example {
-	left: 54%;
-}
-
-.column-left.with-copy{
-	margin-right: 50%;
+.text3 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
-.column.with-copy .copy {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center !important;
+.text1-wrap {
+	margin: 0 auto;
+	width: 80%;
 }
 
-.column.with-copy {
-	float: left;
-	display: table;
+.picture1 {
+	display: block;
+	max-width:100%;
+	max-height:100%;
+	max-height: 560px;
 }
-.column {
-	height: 100%;
-	position: relative;
+
+@media screen and (min-width: 900px) {
+	.block1 {
+		display: flex;
+		justify-content: center;
+	}
+	.block3{
+		display: flex;
+		justify-content: center;
+	}	
+}
+
+.block2 {
+	background-image:  url("images/bike-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+	height: 650px;
+}
+
+.block2-jumbotron {
+	font-size: 20;
+    color: white;
+	font-weight: 600;
+	color: white;
+	margin-top: auto;
+	text-align: center;
+}
+#block2-title {
+	margin-top: 180px;
 }
 
 .footsocial {
