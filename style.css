@@ -7,6 +7,15 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+.navbar-default{
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fcf8e3;
+}
 
 .jumbotron {
 	background-color: transparent;
@@ -20,10 +29,10 @@ body {
 	color:inherit;
 	padding-top: 48px;
 	padding-bottom: 48px;
-    background-image: url("images/bike-home.png");
+    background-image: url("images/bike-top-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.9;
+	opacity: 0.8;
 	height: 650px;
 }
 
@@ -92,7 +101,21 @@ body {
 
 .text1-wrap {
 	margin: 0 auto;
-	width: 80%;
+	/* width: 50%; */
+}
+
+.text1-body {
+	margin-top: 15px;
+	opacity: 0.75;
+	color: #666;
+	font-size: 16px;
+}
+
+.text3-body {
+	margin-top: 15px;
+	opacity: 0.75;
+	color: #666;
+	font-size: 16px;
 }
 
 .picture1 {
@@ -111,6 +134,18 @@ body {
 		display: flex;
 		justify-content: center;
 	}	
+}
+
+.block1 {
+	max-width: 100%;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.block3 {
+	max-width: 100%;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .block2 {
@@ -179,4 +214,10 @@ body {
     margin-top: 50px;
     transform-origin: -5 0;
 	opacity: 0.8;
+}
+
+#myTopnav.activeScrool {
+	background: white none-repeat scroll 0 0;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+	transition: all 0.2s ease-in 0s;
 }
