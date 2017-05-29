@@ -13,9 +13,10 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a id="velocity"> Velocity </a></li>
                 </ul>
-
+                <span class="nav-btn"</span>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home"> Home <span class="sr-only">(current)</span></a></li>
+                 
                     <li><a href="#about"> About </a></li>
                     <li><a href="#blog"> Blog </a></li>
                     <li><a href="#request"> Request Bike </a></li>
@@ -41,6 +42,13 @@
 
         </div>
     </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script>
+        $('span.nav-btn').click(function () {
+            $('ul.nav').toggle();
+
+        })
+    </script>
 
     <br>
 

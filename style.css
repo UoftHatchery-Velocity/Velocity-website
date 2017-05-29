@@ -134,7 +134,8 @@ body {
 	.block3{
 		display: flex;
 		justify-content: center;
-	}	
+	}
+
 }
 
 @media screen and (max-width:900px){
@@ -144,6 +145,26 @@ body {
 	.block3 {
 		text-align: center;
 	}
+    .navbar-nav {
+        text-align: right;
+        display: none;
+    }
+
+        .navbar-nav > li {
+            display: block;
+        }
+
+    .nav-btn {
+        display: block;
+        color: white;
+        font-size: 10px;
+        text-align: right;
+        cursor: pointer;
+    }
+        .nav-btn:before {
+            content: "Menu";
+            font-size: 30px;
+        }
 }
 
 .block1 {
