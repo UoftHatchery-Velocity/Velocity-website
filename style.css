@@ -30,7 +30,7 @@ body {
 	color:inherit;
 	padding-top: 48px;
 	padding-bottom: 48px;
-    background-image: url("images/bike-top-background.jpg");
+    background-image: url("images/bike-top-background-dark.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.8;
@@ -141,6 +141,10 @@ body {
 @media screen and (max-width:900px){
 	.block1 {
 		text-align: center; 
+	}
+	.block2 {
+		margin-top: 80px;
+		margin-bottom: 50px;
 	}
 	.block3 {
 		text-align: center;

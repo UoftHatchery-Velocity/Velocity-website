@@ -33,8 +33,10 @@
         }
 
             .nav-btn:before {
-                content: "Menu";
+                color: black; 
+				content: "Menu";
                 font-size: 30px;
+				opacity:.6;
             }
     }
 </style>
@@ -42,7 +44,7 @@
     </header>
 
     <nav>
-        <div class="navbar navbar-default navbar-fixed-top animated fadeIn" id="myTopnav">
+        <div class="navbar navbar-default navbar-fixed-top" id="myTopnav">
             <div class="container-fluid">
                 <ul class="nav navbar-nav navbar-left">
                     <li><a id="velocity"> Velocity </a></li>
@@ -80,7 +82,6 @@
     <script>
         $('span.nav-btn').click(function () {
             $('ul.nav').toggle();
-            
         })
         $(window).resize(function () {
             if ($(window).width() > 900) {
