@@ -135,7 +135,6 @@ body {
 		display: flex;
 		justify-content: center;
 	}
-
 }
 
 @media screen and (max-width:900px){
@@ -225,6 +224,11 @@ body {
     -webkit-margin-end: 0px;
 	opacity: .7;
 }
+
+a {
+	color: white;
+}
+
 .logo {
     margin-bottom: 150px;
     margin-top: 50px;
