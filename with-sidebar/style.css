@@ -66,6 +66,12 @@ body {
     color: white;
 }
 
+#about-header {
+    font-size: 60;
+    color: white;
+    margin-top: 240px;
+    font-weight: 600;
+}
 #apple-download {
     width: 190;
     height: 66;
@@ -207,13 +213,52 @@ body {
     flex-direction: column;
 }
 
+.about-block1 {
+    max-width: 100%;
+    max-height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+  
+}
+.about-background1 {
+
+    color: black;
+    padding-top: 40px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 40px 0;
+}
+.about-text1 {
+    color: white;
+    text-align: center;
+    
+}
+.about-goal {
+    color: white;
+    text-align: center;
+}
 .image {
     margin: 0;
     padding: 0;
     font-size: 200px;
     line-height: 0.5em;
     margin-bottom: 50px;
-	opacity: 0.6
+    opacity: 0.6
 }
 
 .terms {
