@@ -101,6 +101,7 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 60px;
 }
 
 .text1-wrap {
@@ -269,9 +270,3 @@ a {
     transform-origin: -5 0;
 	opacity: 0.8;
 }
-
-/* .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { */
-	/* color: transparent; */
-/* } */
-
-
