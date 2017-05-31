@@ -1,0 +1,282 @@
+<html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="navbar.js"></script>
+	<link rel="stylesheet" href="humbergur.css">
+	<link rel="stylesheet" href="hamb.css">
+	<script src="humberger.js"></script>
+<style>
+
+    @media screen and (max-width:900px) {
+        .block1 {
+            text-align: center;
+        }
+
+        .block3 {
+            text-align: center;
+        }
+
+        .navbar-nav {
+            text-align: right;
+            display: none;
+        }
+
+            .navbar-nav > li {
+                display: block;
+            }
+
+        .nav-btn {
+            display: block;
+            color: white;
+            font-size: 10px;
+            text-align: right;
+            cursor: pointer;
+        }
+
+            .nav-btn:before {
+                color: black; 
+				content: "Menu";
+                font-size: 30px;
+				opacity:.6;
+            }
+    }
+</style>
+    <header>
+    </header>
+
+    <nav>
+        <div class="navbar navbar-default navbar-fixed-top" id="myTopnav">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a id="velocity"> Velocity </a></li>
+                </ul>
+                <span class="nav-btn"</span>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home"> Home <span class="sr-only">(current)</span></a></li>
+                 
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#blog"> Blog </a></li>
+                    <li><a href="#request"> Request Bike </a></li>
+                    <li><a href="#download"> Download </a></li>
+                    <li><a href="#faq">  FAQ </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+
+                    <!-- <li class="dropdown"> -->
+                      <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+                      <!-- <ul class="dropdown-menu"> -->
+                        <!-- <li><a href="#">Action</a></li> -->
+                        <!-- <li><a href="#">Another action</a></li> -->
+                        <!-- <li><a href="#">Something else here</a></li> -->
+                        <!-- <li role="separator" class="divider"></li> -->
+                        <!-- <li><a href="#">Separated link</a></li> -->
+                        <!-- <li role="separator" class="divider"></li> -->
+                        <!-- <li><a href="#">One more separated link</a></li> -->
+						
+                      <!-- </ul> -->
+					  
+                    <!-- </li> -->
+					<li class="nav-icon" id="nav-icon">
+							<span></span>	
+							<span></span>
+							<span></span>
+							<span></span>
+					</li>
+					<div class="hamburger-menu">
+					</div>
+                </ul>
+				</div>
+            </div>
+        </div>
+    </nav>
+	<!-- div class="sidebar" -->
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script>
+        $('.nav-btn.content').click(function () {
+            $('ul.nav').toggle();
+        })
+        $(window).resize(function () {
+            if ($(window).width() > 900) {
+                $('ul.nav').removeAttr('style');
+            }
+        })
+    </script>
+	
+    <br>
+	
+	
+	<div id="wrapper">
+        <div class="overlay"></div>
+    
+        
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+          </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <!-- <h3 class="page-header">Awesome Bootstrap 3 Sidebar Navigation</h3>   -->
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+		<!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       Bootstrap 3
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-folder"></i> Page one</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-file-o"></i> Second page</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-cog"></i> Third page</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Dropdown heading</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-bank"></i> Page four</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-dropbox"></i> Page 5</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-twitter"></i> Last page</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+	
+    <body>
+        <div id="root">
+            <section class="home">
+
+                <div class="">
+                    <div class="jumbotron header-top">
+                      <h2 id="header1">Velocity takes you there !</h2>
+                      <div id="header1-description">
+                          our app and bike integrated system takes your commuting experience to a next level
+                      </div>
+                      <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+
+                    <div class="apple-download">
+                        <a href="#download"></a>
+                        <img id="apple-download" src="images/apple-download.png" alt="apple download link">
+                    </div>
+
+                    <div class="android-download">
+                        <a href="#download"></a>
+                        <img id="android-download" src="images/android-download.png" alt="android download link">
+                    </div>
+
+                      <div class="">
+                          <!-- <img src="images/bike-home.png" alt="bike home"> -->
+                      </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="block1">
+				<div class="picture1">
+					<img src="images/picture1.png" alt="app example">
+				</div>
+				<div class="text1"
+					<div class="text1-wrap">
+						<h2 class="text1-heading">
+							User-friendly interface
+						</h2>
+						<p class="text1-body">
+							"our app and bike integrated system takes your commuting experience to a next level our app and bike integrated system takes your commuting experience to a next level."
+						</p>
+					</div>
+				</div>
+            </section>
+			<section class="block2">
+				<div class="jumbotron block2-jumbotron">
+					<!-- <div class="block2-wrap">  -->
+						<h1 id="block2-title">Velocity takes you there !</h1>
+						<div id="block2-description">
+							our app and bike integrated system takes your commuting experience to a next level
+						</div>
+					<!-- </div>  -->
+				</div>
+			</section>
+			<section class="block3">
+				<div class="text3"
+					<div class="text3-wrap">
+						<h2 class="text3-heading">
+							Convenience & Safety
+						</h2>
+						<p class="text3-body">
+							Safety guaranteed by GPS tracking
+							our app and bike integrated system takes your commuting experience to a next level.
+						</p>
+					</div>
+				</div>
+				<div class="picture3">
+					<img src="images/bikeshare.jpg" alt="bike example">
+				</div>
+			</section>
+        </div>
+    </body>
+
+
+
+    <footer>
+
+        <div class="footsocial">
+            <div class="logo">
+                <a href=""></a>
+                <img id="velocity-logo" src="images/brand-logo.png" width="150" height="150" alt="velocity-link">
+            </div>
+            <div class="image">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" width="50" height="50" alt="facebook-link"></a>
+
+
+
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo.svg" width="50" height="50" alt="youtube-link"></a>
+
+
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-logo.svg" width="50" height="50" alt="instagram-link"></a>
+
+
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-logo.png" width="50" height="50" alt="twitter-link"></a>
+            </div>
+              <div class="terms">
+            <p>� 2017 Velocity Ltd/p>
+            <p>All Rights Reserved | <a href="contact@velocity.com">contact@velocity.com</a> | <a href="/sg/privacy">Privacy</a> | <a href="/sg/terms">Terms</a></p>
+        </div>
+            </div>
+
+    </footer>
+</html>
