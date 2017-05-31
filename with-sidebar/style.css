@@ -47,8 +47,9 @@ body {
 }
 
 #velocity {
-    font-size: 35;
+  font-size: 35;
 	color: white;
+  left: -15px;
 }
 
 #header1 {

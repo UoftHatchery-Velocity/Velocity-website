@@ -1,4 +1,5 @@
-@import "https://designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
+/*@import "https://designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";*/
+@import "flat-ui.min.css"
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
 @import "https://daneden.github.io/animate.css/animate.min.css";
 /*-------------------------------*/
@@ -51,6 +52,9 @@ html {
   background: #1a1a1a;
   height: 100%;
   left:220px;
+  top: 100px;
+  /*right: -420px;*/
+  /*margin-right: 420px;*/
   margin-left: -220px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -73,8 +77,10 @@ html {
   margin: 0; 
   padding: 0;
   position: absolute;
-  top: 0;
+  top: 0px;
+  right: 30px;
   width: 220px;
+  z-index: 998;
 }
 .sidebar-nav li {
   display: inline-block;
@@ -172,9 +178,10 @@ html {
   /* display: block; */
   height: 32px;
   /* margin-left: 15px; */
-  right: 30px;
+  left: 10px;
   position: fixed;
-  top: 200px;
+  /*top: 200px;*/
+  top: 60px;
   width: 32px;
   z-index: 999;
 }
