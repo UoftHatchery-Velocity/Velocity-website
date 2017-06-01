@@ -181,9 +181,15 @@ html {
   /* left: 10px; */
   position: fixed;
   /*top: 200px;*/
-  top: 60px;
+  top: -60px;
   width: 32px;
   z-index: 999;
+}
+
+@media screen and (max-width:1024px){
+	.hamburger {
+		top:70px;
+	}
 }
 
 .hamburger:hover {
