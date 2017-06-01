@@ -53,8 +53,6 @@ html {
   height: 100%;
   left:220px;
   top: 60px;
-  /*right: -420px;*/
-  /*margin-right: 420px;*/
   margin-left: -220px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -175,12 +173,8 @@ html {
 .hamburger {
   background: transparent;
   border: none;
-  /* display: block; */
   height: 32px;
-  /* margin-left: 15px; */
-  /* left: 10px; */
   position: fixed;
-  /*top: 200px;*/
   top: -60px;
   width: 32px;
   z-index: 999;
