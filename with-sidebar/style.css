@@ -232,15 +232,19 @@ body {
     flex-direction: column;
     padding-bottom: 40px 0;
 }
+
 .about-text1 {
     color: white;
     text-align: center;
-    
+	margin-top: 60px;
+	margin-bottom:60px;
 }
+
 .about-goal {
     color: white;
     text-align: center;
 }
+
 .image {
     margin: 0;
     padding: 0;
@@ -269,4 +273,12 @@ a {
     margin-top: 50px;
     transform-origin: -5 0;
 	opacity: 0.8;
+}
+
+#contact-header {
+	margin-top: 240px;
+}
+
+.contact-block1 {
+	text-align: center;
 }
