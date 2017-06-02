@@ -347,7 +347,13 @@ a {
 	margin: 0 auto;
 }
 
-.Q3-content select {
+.request-block1-content select, .request-block1-content input {
 	width: 100%;
+	margin-bottom: 30px;
+	color: grey;
+}
+
+.submit-button {
+	margin-bottom: 20px;
 }
 .

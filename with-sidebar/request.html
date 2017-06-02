@@ -200,13 +200,22 @@
 							<div class="Q2-label">
 								<b>Purpose</b>
 							</div>
-							<input type="text" name="LastName" value=""><br>
+							<select name="purpose">
+									<option value disabled>How soon do you want our bike?</option>
+									<option value="0">As soon as possible</option>
+									<option value="1">In 15 mins</option>
+									<option value="2">In 30 mins</option>
+									<option value="3">In 45 mins</option>
+									<option value="4">In an hour</option>
+									<option value="5">In 2 hours</option>
+									<option value="6">Other</option>
+							</select>
 						</div>		
-						<label>
+						<div class="Q3">
 							<div class="Q3-label">
 								<b>Purpose</b>
 							</div>
-							<div class="Q3-content">
+							<!-- <div class="Q3-content"> -->
 								<select name="purpose">
 									<option value disabled>What do you use our bike for?</option>
 									<option value="0">Leisure</option>
@@ -216,8 +225,8 @@
 									<option value="4">To get food</option>
 									<option value="5">Other</option>
 								</select>
-							</div>
-						</label>
+							<!-- </div> -->
+						</div>
 				<!-- <div class="submit-button"> -->
 					<!-- <input type="submit" value="Submit" background="#f05b48"> -->
 				<!-- </div> -->
@@ -229,6 +238,7 @@
 						</div>
 					</div>
 				</form>	
+				</div>
             </section>
         </div>
     </body>
