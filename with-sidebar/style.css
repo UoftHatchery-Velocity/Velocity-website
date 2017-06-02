@@ -285,6 +285,11 @@ a {
 	margin: 0 auto;
 }
 
+.request-block1 {
+	text-align: center;
+	width: 1000px;
+	margin: 50px auto;
+}
 
 .faq__menu {
     min-width: 260px;
@@ -323,3 +328,26 @@ a {
 .faq_data_section {
     padding-top: 50px;
 }
+
+.input {
+	margin-left: 10px;
+}
+
+.submit-button button {
+	 background: #f05b48;
+}
+
+.request-block1-text {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.request-block1-content {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.Q3-content select {
+	width: 100%;
+}
+.
