@@ -280,8 +280,8 @@ a {
 }
 
 .contact-block1 {
-	text-align: center;
-	width: 1000px;
+	text-align: left;
+	width: 720px;
 	margin: 0 auto;
 }
 
@@ -356,4 +356,8 @@ a {
 .submit-button {
 	margin-bottom: 20px;
 }
-.
+
+.text1-subheader1, .text1-subheader2 {
+	color: yellow;
+	font-weight: 600;
+}
