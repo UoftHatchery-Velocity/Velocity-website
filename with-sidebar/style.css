@@ -361,3 +361,9 @@ a {
 	color: yellow;
 	font-weight: 600;
 }
+
+.download-block {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}

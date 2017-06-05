@@ -1,0 +1,240 @@
+<html lang="en">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="humbergur.css">
+    <link rel="stylesheet" href="flat-ui.min.css">
+	<link rel="stylesheet" href="hamb.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="navbar.js"></script>
+	<script src="humberger.js"></script>
+<style>
+
+    @media screen and (max-width:900px) {
+        .block1 {
+            text-align: center;
+        }
+
+        .block3 {
+            text-align: center;
+        }
+	}
+	@media screen and (max-width:1024px) {
+        .navbar-nav {
+            text-align: right;
+            display: none;
+        }
+
+            .navbar-nav > li {
+                display: block;
+            }
+
+        .nav-btn {
+            display: block;
+            color: white;
+            font-size: 10px;
+            text-align: left;
+            cursor: pointer;
+        }
+
+            .nav-btn:before {
+                color: #ec7063; 
+				content: "VELOCITY";
+                font-size: 35px;
+				opacity:.9;
+            }
+    }
+</style>
+    <header>
+    </header>
+
+    <nav>
+        <div class="navbar navbar-default navbar-fixed-top" id="myTopnav">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a id="velocity"> Velocity </a></li>
+                </ul>
+                <span class="nav-btn"</span>
+                <ul class="nav navbar-nav navbar-right">
+                    
+					<li><a href="combine.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="blog.html"> Blog </a></li>
+                    <li><a href="request.html"> Request Bike </a></li>
+                    <li><a href="download.html"> Download </a></li>
+                    <li><a href="faq.html">  FAQ </a></li>
+					<li class="active"><a href="contact.html"> Contact <span class="sr-only">(current)</span></a></li>
+
+                </ul>
+				</div>
+            </div>
+        </div>
+    </nav>
+	<!-- div class="sidebar" -->
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script>
+        $('.nav-btn.content').click(function () {
+            $('ul.nav').toggle();
+        })
+        $(window).resize(function () {
+            if ($(window).width() > 900) {
+                $('ul.nav').removeAttr('style');
+            }
+        })
+    </script>
+	
+    <br>
+	
+	
+	<div id="wrapper">
+        <div class="overlay"></div>
+    
+        
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+          </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <!-- <h3 class="page-header">Awesome Bootstrap 3 Sidebar Navigation</h3>   -->
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+		<!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <!-- <li class="sidebar-brand">
+                    <a href="#">
+                       Bootstrap 3
+                    </a>
+                </li> -->
+                <li>
+                    <a href="combine.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="about.html"><i class="fa fa-fw fa-folder"></i> About</a>
+                </li>
+                <li>
+                    <a href="blog.html"><i class="fa fa-fw fa-file-o"></i> Blog</a>
+                </li>
+                <li>
+                    <a href="request.html"><i class="fa fa-fw fa-cog"></i> Request bike</a>
+                </li>
+                <li>
+                    <a href="download.html"><i class="fa fa-fw fa-bank"></i> Download</a>
+                </li>
+                <li>
+                    <a href="faq.html"><i class="fa fa-fw fa-dropbox"></i> FAQ</a>
+                </li>
+                <li>
+                    <a href="contact.html"><i class="fa fa-fw fa-twitter"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+	
+    <body>
+        <div id="root">
+            <section class="home">
+
+                <div class="">
+                    <div class="jumbotron header-top">
+                      <h2 id="contact-header">Contact us!</h2>
+					</div>
+                </div>
+            </section>
+
+
+			<div class="container">
+				<h2>Carousel Example</h2>  
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+			<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/carousel-pic1.jpg" alt="Los Angeles" style="width:100%;">
+						</div>
+
+						<div class="item">
+							<img src="images/carousel-pic2.jpg" alt="Chicago" style="width:100%;">
+						</div>
+    
+						<div class="item">
+							<img src="images/carousel-pic3.jpg" alt="New york" style="width:100%;">
+						</div>
+					</div>
+
+			<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="download-block">
+				<div class="apple-download">
+                    <a href="#download"></a>
+                    <img id="apple-download" src="images/apple-download.png" alt="apple download link">
+                </div>
+
+				<div class="android-download">
+                    <a href="#download"></a>
+                    <img id="android-download" src="images/android-download.png" alt="android download link">
+                </div>
+			</div>
+		</div>
+    </body>
+
+
+
+    <footer>
+
+        <div class="footsocial">
+            <div class="logo">
+                <a href=""></a>
+                <img id="velocity-logo" src="images/brand-logo.png" width="150" height="150" alt="velocity-link">
+            </div>
+            <div class="image">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" width="50" height="50" alt="facebook-link"></a>
+
+
+
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo.svg" width="50" height="50" alt="youtube-link"></a>
+
+
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-logo.svg" width="50" height="50" alt="instagram-link"></a>
+
+
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-logo.png" width="50" height="50" alt="twitter-link"></a>
+            </div>
+            <div class="terms">
+				<p>� 2017 Velocity Ltd/p>
+				<p>All Rights Reserved | <a href="contact@velocity.com">contact@velocity.com</a> | <a href="/sg/privacy">Privacy</a> | <a href="/sg/terms">Terms</a></p>
+			</div>
+        </div>
+    </footer>
+</html>
