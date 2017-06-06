@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_directions_bike_black_24px"
+            android:title="Find Bike" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_person_outline_black_24px"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_group_black_24px"
+            android:title="Share Ride" />
+
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@mipmap/ic_help_black_24dp"
+            android:title="Help" />
+
+
+ <!--
+            note the two different implementations for icons
+            <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Share Ride" />
+
+
+-->
+
+    </group>
+
+
+</menu>

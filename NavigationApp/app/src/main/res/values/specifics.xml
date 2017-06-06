@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Put in the number of instruction pics below-->
+    <integer name="numOfPics"> 3 </integer>
+
+</resources>
